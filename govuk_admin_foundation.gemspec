@@ -17,5 +17,10 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
+  gem.add_dependency 'rails', '>= 3.1'
+  gem.add_dependency 'bootstrap-sass', '3.1.0'
+
+  gem.add_development_dependency 'rake'
+  gem.add_development_dependency 'sass', '3.2.12'
   gem.add_development_dependency 'rspec', '2.14.1'
 end
