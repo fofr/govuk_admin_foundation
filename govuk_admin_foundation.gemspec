@@ -6,10 +6,10 @@ require 'govuk_admin_foundation/version'
 Gem::Specification.new do |gem|
   gem.name          = "govuk_admin_foundation"
   gem.version       = GovukAdminFoundation::VERSION
-  gem.authors       = ["TODO: Write your name"]
-  gem.email         = ["TODO: Write your email address"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.authors       = ["GOV.UK Dev"]
+  gem.email         = ["govuk-dev@digital.cabinet-office.gov.uk"]
+  gem.description   = %q{SASS, Styles, JavaScript and templates for GOV.UK admin applications}
+  gem.summary       = gem.description
   gem.homepage      = ""
 
   gem.files         = Dir["{app,lib}/**/*"] + ["LICENCE.txt", "README.md"]
