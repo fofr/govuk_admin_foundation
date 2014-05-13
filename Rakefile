@@ -8,3 +8,5 @@ task :compile do
   puts "Compiling templates into ./app"
   Compiler::AssetCompiler.compile
 end
+require 'jasmine'
+load 'jasmine/tasks/jasmine.rake'
