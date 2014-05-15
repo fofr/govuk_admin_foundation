@@ -1,5 +1,6 @@
 module GovukAdminFoundation
   class Engine < ::Rails::Engine
+    puts $LOAD_PATH
     require 'bootstrap-sass'
 
     initializer "govuk_admin_foundation.assets.precompile" do |app|
