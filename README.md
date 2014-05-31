@@ -1,29 +1,3 @@
-# GovukAdminFoundation
+# GOV.UK Admin Foundation
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'govuk_admin_foundation'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install govuk_admin_foundation
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Exploratory work to create a gem for sharing CSS, Javascript and markup between GOV.UK admin apps. __Superceded by https://github.com/alphagov/govuk_admin_template__
